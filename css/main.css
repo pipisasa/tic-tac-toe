@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  color: #FFF;
+}
+.arena{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+/* 
+.mouse-hover{
+  color: blue;
+} */
+
+.hoverX:hover::after{
+  content: 'X';
+  color: blue;
+}
+.hoverO:hover::after{
+  content: 'O';
+  color: blue;
+}
