@@ -37,6 +37,8 @@ const arr = [];
 function start(){
   let arena = document.querySelector('.arena');
   arena.innerHTML = '';
+  isX = true;
+  arr = [];
   for(let i=0;i<9;i++){
     arr.push(0);
     let box = document.createElement('div');
