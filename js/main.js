@@ -31,7 +31,7 @@ function toggleClass(){
 }
 
 let isX = true;
-const arr = [];
+let arr = [];
 
 
 function start(){
